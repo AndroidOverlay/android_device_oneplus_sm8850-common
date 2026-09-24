@@ -203,7 +203,6 @@ oplus_secure_common.ko
 oplus_sensor_deviceinfo.ko
 oplus_sensor_feedback.ko
 oplus_sensor_interact.ko
-oplus_sync_fence.ko
 oplus_typec_switch_i2c.ko
 oplusboot.ko
 panel_event_notifier.ko
