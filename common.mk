@@ -230,6 +230,9 @@ PRODUCT_COPY_FILES += \
 endif
 
 # Graphics
+PRODUCT_PACKAGES += \
+    libOpenCL-pixel
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
     frameworks/native/data/etc/android.hardware.vulkan.compute-0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.compute-0.xml \

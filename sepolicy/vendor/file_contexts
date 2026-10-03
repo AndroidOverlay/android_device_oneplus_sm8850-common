@@ -1,0 +1,2 @@
+# OpenCL
+/vendor/lib(64)?/libOpenCL-pixel\.so                        u:object_r:same_process_hal_file:s0

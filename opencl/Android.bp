@@ -1,0 +1,17 @@
+//
+// SPDX-FileCopyrightText: 2026 The LineageOS Project
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Pixel apps declare the OpenCL library under its Pixel name only,
+// so expose the Adreno implementation through the same interface.
+cc_library_shared {
+    name: "libOpenCL-pixel",
+    srcs: ["opencl_pixel.c"],
+    shared_libs: [
+        "libdl",
+        "liblog",
+    ],
+    stl: "none",
+    vendor: true,
+}
